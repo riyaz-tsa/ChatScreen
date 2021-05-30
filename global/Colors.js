@@ -1,4 +1,4 @@
-export const PRIMARY = '#098b4d';
+export const PRIMARY = '#f6e58d';
 
 // export const SECONDARY = '#a7393b';
 

@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "339439278139",
+    "project_id": "base-app-56249",
+    "storage_bucket": "base-app-56249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339439278139:android:ca9f97c29d18b4d4a7241e",
+        "android_client_info": {
+          "package_name": "com.nbh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339439278139-gngol90denatvoefcu8tkk65a2rra7bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOYnwKxI5qLBSWMWqZwOY6PkbXZ_EW2mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339439278139-gngol90denatvoefcu8tkk65a2rra7bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339439278139:android:73cdc81241c84a8da7241e",
+        "android_client_info": {
+          "package_name": "com.thekkeindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339439278139-ne2ajemnm2hlvqkbafu3ujs5nvf95jrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thekkeindia",
+            "certificate_hash": "b9b9f89b716a69e8864ceb9e699b8427f1f6a6b6"
+          }
+        },
+        {
+          "client_id": "339439278139-gngol90denatvoefcu8tkk65a2rra7bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOYnwKxI5qLBSWMWqZwOY6PkbXZ_EW2mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339439278139-gngol90denatvoefcu8tkk65a2rra7bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

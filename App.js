@@ -1,8 +1,6 @@
-import React from 'react';
-
-import ChatScreen from './screens/ChatScreen/ChatScreen';
-
+import React, {useState, useEffect} from 'react';
+import Providers from './navigation';
 const App = () => {
-  return <ChatScreen />;
+  return <Providers />;
 };
 export default App;
