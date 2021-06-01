@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.netinfo.NetInfoPackage;
+import com.imagepicker.ImagePickerPackage;
 import com.airbnb.android.react.lottie.LottiePackage;
 import com.azendoo.reactnativesnackbar.SnackbarPackage;
 import com.horcrux.svg.SvgPackage;

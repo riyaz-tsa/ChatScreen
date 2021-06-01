@@ -28,18 +28,22 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.secondary,
   },
   inputView: {
+    width: '80%',
     backgroundColor: 'white',
     borderRadius: 30,
-    width: '86%',
-    height: 50,
-    marginBottom: 20,
   },
 
   TextInput: {
     height: 50,
     flex: 1,
     padding: 10,
-    marginLeft: 20,
     color: 'black',
+  },
+  container: {
+    flex: 1,
+  },
+  keyboardAvoidContainer: {
+    flex: 1,
+    backgroundColor: 'orange',
   },
 });

@@ -13,12 +13,22 @@ import {
 import {Colors} from '../../global/Index';
 
 export default function Register({navigation}) {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const {register} = useContext(AuthContext);
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
+      <View style={styles.inputView}>
+        <TextInput
+          value={name}
+          style={styles.TextInput}
+          placeholder="Name"
+          placeholderTextColor="#003f5c"
+          onChangeText={name => setName(name)}
+        />
+      </View>
       <View style={styles.inputView}>
         <TextInput
           value={email}
@@ -41,7 +51,7 @@ export default function Register({navigation}) {
       </View>
 
       <TouchableOpacity
-        onPress={() => register(email, password)}
+        onPress={() => register(name, email, password)}
         style={styles.loginBtn}>
         <Text style={styles.loginText}>REGISTER</Text>
       </TouchableOpacity>
